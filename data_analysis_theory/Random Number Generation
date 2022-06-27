@@ -1,0 +1,17 @@
+1. SEED : 난수를 만드는 알고리즘 일정 (0 ~ 2^32-1)
+    SEED(NONE)일 경우 : 지속적으로 다른 난수 생성
+    SEED(NUM)일 경우 : 지속적으로 같은 난수 생성
+
+2. 명령어
+    - np.random
+            rand : 0~1사이 난수 : 균일분포 기준 - single, array
+            randint : 정수 난수 : 균일분포 기준
+            randn : 표준정규분포 기준(정규분포 평균 = 0, 표준편차 = 1)
+            normal : 정규분포 기준
+            weibull : 와이블분포 기준
+            choice : 주어진 샘플값 중 주어진 확률로 샘플값
+            shuffle : 주어진 샘플값을 array 무작위로 순서를 바꾸어줌
+    - random.rand : 임의 확률 분포 기반
+    - random.seed : 동일한 난수 재생성
+    - random.binomial-binomial distribution
+    - random.poission-Poisson distribution

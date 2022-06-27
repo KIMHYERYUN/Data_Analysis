@@ -1,0 +1,41 @@
+1. 정의
+    numpy 라이브러리를 활용한 플로팅 라이브러리
+    GUI Tool kit를 사용하여 애플리케이션에 플롯(구성)을 포함하기 위한 객체지향 API
+2. 기능 : https://matplotlib.org/stable/plot_types/index.html
+    라인플롯 :
+        >>> import matplotlib.pyplot as plt
+        >>> import numpy as np
+        >>> a = np.linspace(0, 10, 100)
+        >>> b = np.exp(-a)
+        >>> plt.plot(a, b)
+        >>> plt.show()
+
+    히스토그램 :
+        >>> import matplotlib.pyplot as plt
+        >>> from numpy.random import normal,rand
+        >>> x = normal(size=200)
+        >>> plt.hist(x, bins=30)
+        >>> plt.show()
+
+    산점도 :
+        >>> import matplotlib.pyplot as plt
+        >>> from numpy.random import rand
+        >>> a = rand(100)
+        >>> b = rand(100)
+        >>> plt.scatter(a, b)
+        >>> plt.show()
+
+    3D 플롯 :
+        >>> from matplotlib import cm
+        >>> from mpl_toolkits.mplot3d import Axes3D
+        >>> import matplotlib.pyplot as plt
+        >>> import numpy as np
+        >>> fig = plt.figure()
+        >>> ax = fig.gca(projection='3d')
+        >>> X = np.arange(-5, 5, 0.25)
+        >>> Y = np.arange(-5, 5, 0.25)
+        >>> X, Y = np.meshgrid(X, Y)
+        >>> R = np.sqrt(X**2 + Y**2)
+        >>> Z = np.sin(R)
+        >>> surf = ax.plot_surface(X, Y, Z, rstride=1, cstride=1, cmap=cm.coolwarm)
+        >>> plt.show()

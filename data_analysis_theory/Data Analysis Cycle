@@ -1,0 +1,42 @@
+1. Data Analysis Life Cycle
+    Ask: Business Challenge/Objective/Question
+    Prepare: Data generation, collection, storage, and data management
+    Process: Data cleaning/data integrity
+    Analyze: Data exploration, visualization, and analysis
+    Share: Communicating and interpreting results
+    Act:  Putting your insights to work to solve the problem
+
+2. EMC's data analysis life cycle
+    Discovery
+    Pre-processing data
+    Model planning
+    Model building
+    Communicate results
+    Operationalize
+
+3. SAS's iterative life cycle
+    Ask
+    Prepare
+    Explore
+    Model
+    Implement
+    Act
+    Evaluate
+
+4. Project-based data analytics life cycle
+    Identifying the problem
+    Designing data requirements
+    Pre-processing data
+    Performing data analysis
+    Visualizing data
+
+5. Big data analytics life cycle
+    Business case evaluation
+    Data identification
+    Data acquisition and filtering
+    Data extraction
+    Data validation and cleaning
+    Data aggregation and representation
+    Data analysis
+    Data visualization
+    Utilization of analysis results
